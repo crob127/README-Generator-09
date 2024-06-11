@@ -1,29 +1,43 @@
-# Example Project
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+# README Generator
 
 ## Description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This command-line application dynamically generates a professional `README.md` file from user input using the Inquirer package. It helps developers quickly create high-quality README files for their projects, saving time and ensuring consistency.
 
 ## Table of Contents
-- Installation
-- Usage Information
-- [License](#license)
-- Contribution Guidelines
-- Test Instructions
-- Questions Resource
+- [User Story](#user-story)
+- [Usage Instructions](#usage-instructions)
+- [Required Packages](#required-packages)
+- [Installation Instructions](#installation-instructions)
+- [Demo](#demo)
+- [Questions](#questions)
 
-## Installation
-Magna fringilla urna porttitor rhoncus dolor purus. Viverra vitae congue eu consequat ac. Feugiat in ante metus dictum at.
+## User Story
+```md
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+```
 
-## Usage Information
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Usage Instructions
+To generate your `README.md` file, run the following command:
+```md
+node index.js
+```
+Follow the prompts to enter your project details. Once completed, a README.md file will be generated based on your input.
 
-## Constribution Guidelines
-Lorem ipsum dolor sit amet, consectetur adipiscing elit
+## Required Packages
+- inquirer (version 8.2.4)
+- fs (File System module, included with Node.js)
 
-## Test Instructions
-Egestas pretium aenean pharetra magna. At urna condimentum mattis pellentesque id. Lectus mauris ultrices eros in cursus turpis. Turpis nunc eget lorem dolor sed viverra.
+## Installation Instructions
+To install the necessary dependencies, run the following command:
+```md
+npm install inquirer@8.2.4
+```
+
+## Demo
+A walkthrough video demonstrating the functionality of the application is available [here](./demo/README-Generator%20Demo.mp4).
 
 ## Questions?
-Please feel free to contact me at example@gmail.com if you have any questions.
+Please feel free to contact me at <ccr148@gmail.com> if you have any questions.
 You can find more of my work at [crob127](https://github.com/crob127).
