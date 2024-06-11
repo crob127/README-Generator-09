@@ -35,12 +35,12 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents
-- Installation
-- Usage Information
+- [Installation](#installation)
+- [Usage](#usage)
 - ${renderLicenseLink(data.license)}
-- Contribution Guidelines
-- Test Instructions
-- Questions Resource
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 ${data.installation}
